@@ -1,0 +1,585 @@
+.mv {
+  width: 100vw;
+}
+.mv .mv__img--bg {
+  -webkit-clip-path: polygon(100% 0, 0 100%, 0 0%);
+          clip-path: polygon(100% 0, 0 100%, 0 0%);
+}
+.mv .mv__img--bg img {
+  height: 100%;
+}
+.mv .mv__img--main {
+  position: absolute;
+  top: 0%;
+  -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+          clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+.mv .mv__img--main img {
+  height: 100%;
+  filter: saturate(0);
+  transition: 0.3s;
+}
+.mv .mv__img--main img:hover {
+  filter: saturate(1);
+}
+.mv .mv__cont {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.mv .mv__cont .mv__pageTtl {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  font-size: 12rem;
+  font-family: Didot;
+  color: #fff;
+  font-style: italic;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mv .mv__cont .mv__pageTtl {
+    font-size: 8rem;
+    top: 18%;
+  }
+}
+@media (max-width: 767px) {
+  .mv .mv__cont .mv__pageTtl {
+    font-size: 4rem;
+    top: 14%;
+    left: 13%;
+  }
+}
+.mv .mv__cont .mv__page--subTtl {
+  position: absolute;
+  top: 63%;
+  left: 26%;
+  font-size: 1.6rem;
+  font-family: "Noto Sans CJK JP";
+  color: #fff;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mv .mv__cont .mv__page--subTtl {
+    top: 25%;
+    left: 24%;
+  }
+}
+@media (max-width: 767px) {
+  .mv .mv__cont .mv__page--subTtl {
+    font-size: 1.3rem;
+    top: 21%;
+    left: 12%;
+  }
+}
+
+.webdesign {
+  margin: 150px 0;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .webdesign {
+    margin: 100px 0;
+  }
+}
+@media (max-width: 767px) {
+  .webdesign {
+    margin: 80px 0;
+  }
+}
+.webdesign .webdesign__ttl {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, visibility 1s, transform 1s;
+}
+@media (min-width: 1025px) {
+  .webdesign .webdesign__ttl {
+    transform: translateX(-50px);
+  }
+}
+.webdesign .fadeIn__left {
+  opacity: 1;
+  transform: translateY(0);
+}
+.webdesign .fadeIn__bottom {
+  opacity: 1;
+  transform: translateX(0);
+}
+@media (min-width: 1025px) {
+  .webdesign .webdesign__flexBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+.webdesign .webdesign__flexBox .webdesign__img {
+  margin-bottom: 40px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, visibility 1s, transform 1s;
+}
+@media (min-width: 1025px) {
+  .webdesign .webdesign__flexBox .webdesign__img {
+    width: 48%;
+  }
+}
+.webdesign .webdesign__flexBox .webdesign__img .webdesign__img-dtl {
+  margin-top: 20px;
+  font-size: 1.6rem;
+  font-family: "Noto Sans CJK JP";
+  color: #333;
+}
+@media (max-width: 767px) {
+  .webdesign .webdesign__flexBox .webdesign__img .webdesign__img-dtl {
+    margin-top: 10px;
+  }
+}
+.webdesign .webdesign__flexBox .fadeIn__bottom {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.banner {
+  margin-bottom: 150px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .banner {
+    margin-bottom: 80px;
+  }
+}
+.banner .banner__ttl {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, visibility 1s, transform 1s;
+  text-align: center;
+}
+@media (min-width: 1025px) {
+  .banner .banner__ttl {
+    text-align: right;
+    transform: translateX(50px);
+  }
+}
+.banner .fadeIn__right {
+  opacity: 1;
+  transform: translateY(0);
+}
+.banner .fadeIn__bottom {
+  opacity: 1;
+  transform: translateX(0);
+}
+@media (min-width: 1025px) {
+  .banner .banner__flexBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+.banner .banner__flexBox .banner__img {
+  margin-bottom: 40px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, visibility 1s, transform 1s;
+}
+@media (min-width: 1025px) {
+  .banner .banner__flexBox .banner__img {
+    width: 48%;
+  }
+}
+.banner .banner__flexBox .banner__img .banner__img-dtl {
+  margin-top: 20px;
+  font-size: 1.6rem;
+  font-family: "Noto Sans CJK JP";
+  color: #333;
+}
+@media (max-width: 767px) {
+  .banner .banner__flexBox .banner__img .banner__img-dtl {
+    margin-top: 10px;
+  }
+}
+.banner .banner__flexBox .fadeIn__bottom {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.logo {
+  margin-bottom: 150px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .logo {
+    margin-bottom: 80px;
+  }
+}
+.logo .logo__ttl {
+  text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, visibility 1s, transform 1s;
+}
+.logo .logo__img {
+  width: 40%;
+  margin: 0 auto 40px auto;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, visibility 1s, transform 1s;
+}
+.logo .logo__img img {
+  width: 100%;
+  height: 280px;
+}
+.logo .logo__msg {
+  font-size: 1.6rem;
+  font-family: "Noto Sans CJK JP";
+  width: 63%;
+  margin: 0 auto;
+  line-height: 2;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, visibility 1s, transform 1s;
+}
+.logo .fadeIn__bottom {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.mv__gendouryoku {
+  height: 100vh;
+  background-image: url(../images/gendouryoku_moc-up_pc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .mv__gendouryoku {
+    background-image: url(../images/gendouryoku_moc-up_sp.jpg);
+    height: 40vh;
+  }
+}
+
+.gendouryoku__wrap {
+  margin: 150px auto;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .gendouryoku__wrap {
+    margin: 100px auto;
+  }
+}
+@media (max-width: 767px) {
+  .gendouryoku__wrap {
+    margin: 80px auto;
+  }
+}
+.gendouryoku__wrap .prod__ttl {
+  font-size: 4rem;
+  font-family: "Noto Sans CJK JP";
+  color: #333;
+  text-align: center;
+  position: relative;
+  padding: 0 55px;
+  margin-bottom: 80px;
+  line-height: 1.6;
+}
+@media (max-width: 767px) {
+  .gendouryoku__wrap .prod__ttl {
+    font-size: 2rem;
+    line-height: normal;
+    margin-bottom: 40px;
+  }
+}
+.gendouryoku__wrap .prod__ttl::before, .gendouryoku__wrap .prod__ttl::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 40%;
+  height: 1px;
+  background-color: #333;
+}
+@media (max-width: 767px) {
+  .gendouryoku__wrap .prod__ttl::before, .gendouryoku__wrap .prod__ttl::after {
+    width: 35%;
+  }
+}
+.gendouryoku__wrap .prod__ttl::before {
+  left: 0;
+}
+.gendouryoku__wrap .prod__ttl::after {
+  right: 0;
+}
+.gendouryoku__wrap .prod__ttl .prod__url {
+  display: block;
+  font-size: 1.6rem;
+}
+@media (max-width: 767px) {
+  .gendouryoku__wrap .prod__ttl .prod__url {
+    font-size: 1.3rem;
+  }
+}
+.gendouryoku__wrap .prod__cont {
+  margin-bottom: 80px;
+}
+@media (max-width: 767px) {
+  .gendouryoku__wrap .prod__cont {
+    margin-bottom: 40px;
+  }
+}
+.gendouryoku__wrap .prod__cont .prod__contTtl {
+  text-align: center;
+  font-size: 2.4rem;
+  font-family: "Noto Sans CJK JP";
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+  border-bottom: dotted 1px #333;
+}
+@media (max-width: 767px) {
+  .gendouryoku__wrap .prod__cont .prod__contTtl {
+    font-size: 1.8rem;
+  }
+}
+.gendouryoku__wrap .prod__cont .prod__contTxt {
+  font-feature-settings: "palt";
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "Noto Sans CJK JP";
+  font-weight: lighter;
+  color: #333;
+  line-height: 2;
+}
+.gendouryoku__wrap .prod__imgPc {
+  margin-bottom: 80px;
+}
+@media (max-width: 767px) {
+  .gendouryoku__wrap .prod__imgPc {
+    margin-bottom: 40px;
+  }
+}
+.gendouryoku__wrap .prod__dtl {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .gendouryoku__wrap .prod__dtl {
+    display: block;
+  }
+}
+.gendouryoku__wrap .prod__dtl .prod__dtlRange, .gendouryoku__wrap .prod__dtl .prod__dtlTool, .gendouryoku__wrap .prod__dtl .prod__dtlPeriod {
+  width: 30%;
+}
+@media (max-width: 767px) {
+  .gendouryoku__wrap .prod__dtl .prod__dtlRange, .gendouryoku__wrap .prod__dtl .prod__dtlTool, .gendouryoku__wrap .prod__dtl .prod__dtlPeriod {
+    width: 100%;
+  }
+}
+.gendouryoku__wrap .prod__dtl .prod__dtlRange .prod__dtlTtl, .gendouryoku__wrap .prod__dtl .prod__dtlTool .prod__dtlTtl, .gendouryoku__wrap .prod__dtl .prod__dtlPeriod .prod__dtlTtl {
+  text-align: center;
+  background-color: #e6e6e6;
+  padding: 20px;
+  font-size: 2rem;
+  font-family: "Noto Sans CJK JP";
+  color: #333;
+}
+@media (max-width: 767px) {
+  .gendouryoku__wrap .prod__dtl .prod__dtlRange .prod__dtlTtl, .gendouryoku__wrap .prod__dtl .prod__dtlTool .prod__dtlTtl, .gendouryoku__wrap .prod__dtl .prod__dtlPeriod .prod__dtlTtl {
+    font-size: 1.6rem;
+  }
+}
+.gendouryoku__wrap .prod__dtl .prod__dtlRange .prod__dtlTxt, .gendouryoku__wrap .prod__dtl .prod__dtlTool .prod__dtlTxt, .gendouryoku__wrap .prod__dtl .prod__dtlPeriod .prod__dtlTxt {
+  font-weight: lighter;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "Noto Sans CJK JP";
+  color: #333;
+}
+.gendouryoku__wrap .prod__dtl .prod__dtlRange .prod__dtlList, .gendouryoku__wrap .prod__dtl .prod__dtlTool .prod__dtlList, .gendouryoku__wrap .prod__dtl .prod__dtlPeriod .prod__dtlList {
+  list-style: circle;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-family: "Noto Sans CJK JP";
+  color: #333;
+}
+.gendouryoku__wrap .prod__dtl .prod__dtlRange .prod__dtlList .prod__dtlItem, .gendouryoku__wrap .prod__dtl .prod__dtlTool .prod__dtlList .prod__dtlItem, .gendouryoku__wrap .prod__dtl .prod__dtlPeriod .prod__dtlList .prod__dtlItem {
+  margin-bottom: 16px;
+  font-weight: lighter;
+}
+.gendouryoku__wrap .prod__dtl .prod__dtlRange .prod__dtlList .prod__dtlItem:last-child, .gendouryoku__wrap .prod__dtl .prod__dtlTool .prod__dtlList .prod__dtlItem:last-child, .gendouryoku__wrap .prod__dtl .prod__dtlPeriod .prod__dtlList .prod__dtlItem:last-child {
+  margin-bottom: 0;
+}
+
+.mv__brave {
+  height: 100vh;
+  background-image: url(../images/brave-hp.com_mock-up_pc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  .mv__brave {
+    background-image: url(../images/brave-hp.com_mock-up_sp.jpg);
+    height: 40vh;
+  }
+}
+
+.brave__wrap {
+  margin: 150px auto;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .brave__wrap {
+    margin: 100px auto;
+  }
+}
+@media (max-width: 767px) {
+  .brave__wrap {
+    margin: 80px auto;
+  }
+}
+.brave__wrap .prod__ttl {
+  font-size: 4rem;
+  font-family: "Noto Sans CJK JP";
+  color: #333;
+  text-align: center;
+  position: relative;
+  padding: 0 55px;
+  margin-bottom: 80px;
+  line-height: 1.6;
+}
+@media (max-width: 767px) {
+  .brave__wrap .prod__ttl {
+    font-size: 2rem;
+    line-height: normal;
+    margin-bottom: 40px;
+  }
+}
+.brave__wrap .prod__ttl::before, .brave__wrap .prod__ttl::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 33%;
+  height: 1px;
+  background-color: #333;
+}
+@media (max-width: 767px) {
+  .brave__wrap .prod__ttl::before, .brave__wrap .prod__ttl::after {
+    width: 35%;
+  }
+}
+.brave__wrap .prod__ttl::before {
+  left: 0;
+}
+.brave__wrap .prod__ttl::after {
+  right: 0;
+}
+.brave__wrap .prod__ttl .prod__url {
+  display: block;
+  font-size: 1.6rem;
+}
+@media (max-width: 767px) {
+  .brave__wrap .prod__ttl .prod__url {
+    font-size: 1.3rem;
+  }
+}
+.brave__wrap .prod__cont {
+  margin-bottom: 80px;
+}
+@media (max-width: 767px) {
+  .brave__wrap .prod__cont {
+    margin-bottom: 40px;
+  }
+}
+.brave__wrap .prod__cont .prod__contTtl {
+  text-align: center;
+  font-size: 2.4rem;
+  font-family: "Noto Sans CJK JP";
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+  border-bottom: dotted 1px #333;
+}
+@media (max-width: 767px) {
+  .brave__wrap .prod__cont .prod__contTtl {
+    font-size: 1.8rem;
+  }
+}
+.brave__wrap .prod__cont .prod__contTxt {
+  font-feature-settings: "palt";
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "Noto Sans CJK JP";
+  font-weight: lighter;
+  color: #333;
+  line-height: 2;
+}
+.brave__wrap .prod__imgPc {
+  margin-bottom: 80px;
+}
+@media (max-width: 767px) {
+  .brave__wrap .prod__imgPc {
+    margin-bottom: 40px;
+  }
+}
+.brave__wrap .prod__imgSp {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.brave__wrap .prod__imgSp picture {
+  width: 30%;
+}
+.brave__wrap .prod__dtl {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .brave__wrap .prod__dtl {
+    display: block;
+  }
+}
+.brave__wrap .prod__dtl .prod__dtlRange, .brave__wrap .prod__dtl .prod__dtlTool, .brave__wrap .prod__dtl .prod__dtlPeriod {
+  width: 30%;
+}
+@media (max-width: 767px) {
+  .brave__wrap .prod__dtl .prod__dtlRange, .brave__wrap .prod__dtl .prod__dtlTool, .brave__wrap .prod__dtl .prod__dtlPeriod {
+    width: 100%;
+  }
+}
+.brave__wrap .prod__dtl .prod__dtlRange .prod__dtlTtl, .brave__wrap .prod__dtl .prod__dtlTool .prod__dtlTtl, .brave__wrap .prod__dtl .prod__dtlPeriod .prod__dtlTtl {
+  text-align: center;
+  background-color: #e6e6e6;
+  padding: 20px;
+  font-size: 2rem;
+  font-family: "Noto Sans CJK JP";
+  color: #333;
+}
+@media (max-width: 767px) {
+  .brave__wrap .prod__dtl .prod__dtlRange .prod__dtlTtl, .brave__wrap .prod__dtl .prod__dtlTool .prod__dtlTtl, .brave__wrap .prod__dtl .prod__dtlPeriod .prod__dtlTtl {
+    font-size: 1.6rem;
+  }
+}
+.brave__wrap .prod__dtl .prod__dtlRange .prod__dtlTxt, .brave__wrap .prod__dtl .prod__dtlTool .prod__dtlTxt, .brave__wrap .prod__dtl .prod__dtlPeriod .prod__dtlTxt {
+  font-weight: lighter;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "Noto Sans CJK JP";
+  color: #333;
+}
+.brave__wrap .prod__dtl .prod__dtlRange .prod__dtlList, .brave__wrap .prod__dtl .prod__dtlTool .prod__dtlList, .brave__wrap .prod__dtl .prod__dtlPeriod .prod__dtlList {
+  list-style: circle;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-family: "Noto Sans CJK JP";
+  color: #333;
+}
+.brave__wrap .prod__dtl .prod__dtlRange .prod__dtlList .prod__dtlItem, .brave__wrap .prod__dtl .prod__dtlTool .prod__dtlList .prod__dtlItem, .brave__wrap .prod__dtl .prod__dtlPeriod .prod__dtlList .prod__dtlItem {
+  margin-bottom: 16px;
+  font-weight: lighter;
+}
+.brave__wrap .prod__dtl .prod__dtlRange .prod__dtlList .prod__dtlItem:last-child, .brave__wrap .prod__dtl .prod__dtlTool .prod__dtlList .prod__dtlItem:last-child, .brave__wrap .prod__dtl .prod__dtlPeriod .prod__dtlList .prod__dtlItem:last-child {
+  margin-bottom: 0;
+}/*# sourceMappingURL=style.css.map */
