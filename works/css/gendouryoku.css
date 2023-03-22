@@ -34,6 +34,9 @@
   padding: 0 55px;
   margin-bottom: 80px;
   line-height: 1.6;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, visibility 1s, transform 1s;
 }
 @media (max-width: 767px) {
   .gendouryoku__wrap .prod__ttl {
@@ -71,8 +74,15 @@
     font-size: 1.3rem;
   }
 }
+.gendouryoku__wrap .fadeIn__bottom {
+  opacity: 1;
+  transform: translateX(0);
+}
 .gendouryoku__wrap .prod__cont {
   margin-bottom: 80px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, visibility 1s, transform 1s;
 }
 @media (max-width: 767px) {
   .gendouryoku__wrap .prod__cont {
@@ -101,17 +111,42 @@
   color: #333;
   line-height: 2;
 }
+.gendouryoku__wrap .fadeIn__bottom {
+  opacity: 1;
+  transform: translateX(0);
+}
 .gendouryoku__wrap .prod__imgPc {
   margin-bottom: 80px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, visibility 1s, transform 1s;
 }
 @media (max-width: 767px) {
   .gendouryoku__wrap .prod__imgPc {
     margin-bottom: 40px;
   }
 }
+.gendouryoku__wrap .fadeIn__bottom {
+  opacity: 1;
+  transform: translateX(0);
+}
+.gendouryoku__wrap .prod__imgSp {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, visibility 1s, transform 1s;
+}
+.gendouryoku__wrap .prod__imgSp picture {
+  width: 30%;
+}
 .gendouryoku__wrap .prod__dtl {
   display: flex;
   justify-content: space-between;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s, visibility 1s, transform 1s;
 }
 @media (max-width: 767px) {
   .gendouryoku__wrap .prod__dtl {
@@ -160,4 +195,8 @@
 }
 .gendouryoku__wrap .prod__dtl .prod__dtlRange .prod__dtlList .prod__dtlItem:last-child, .gendouryoku__wrap .prod__dtl .prod__dtlTool .prod__dtlList .prod__dtlItem:last-child, .gendouryoku__wrap .prod__dtl .prod__dtlPeriod .prod__dtlList .prod__dtlItem:last-child {
   margin-bottom: 0;
+}
+.gendouryoku__wrap .fadeIn__bottom {
+  opacity: 1;
+  transform: translateX(0);
 }/*# sourceMappingURL=gendouryoku.css.map */

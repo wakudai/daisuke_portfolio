@@ -34,20 +34,20 @@ $sp: 767px;
         @content;
     }
 }
-.mv__gendouryoku {
+.mv__life {
     height: 100vh;
-    background-image: url(../images/gendouryoku_moc-up_pc.jpg);
+    background-image: url(../images/life_hair-design_mokup_pc.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     @include sp {
-        background-image: url(../images/gendouryoku_moc-up_sp.jpg);
+        background-image: url(../images/life_hair-design_mokup_sp.jpg);
         height: 40vh;
     };
 }
 
-.gendouryoku__wrap {
+.life__wrap {
     margin: 150px auto;
 
     @include tb {
@@ -67,6 +67,9 @@ $sp: 767px;
         padding: 0 55px;
         margin-bottom: 80px;
         line-height: 1.6;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, visibility 1s, transform 1s;
 
         @include sp {
             font-size: 2rem;
@@ -79,7 +82,7 @@ $sp: 767px;
             position: absolute;
             top: 50%;
             display: inline-block;
-            width: 40%;
+            width: 33%;
             height: 1px;
             background-color: $common-use;
 
@@ -106,8 +109,16 @@ $sp: 767px;
         }
     }
 
+    .fadeIn__bottom {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
     .prod__cont {
         margin-bottom: 80px;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, visibility 1s, transform 1s;
 
         @include sp {
             margin-bottom: 40px;
@@ -137,17 +148,51 @@ $sp: 767px;
         }
     }
 
+    .fadeIn__bottom {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
     .prod__imgPc {
         margin-bottom: 80px;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, visibility 1s, transform 1s;
 
         @include sp {
             margin-bottom: 40px;
         };
     }
 
+    .fadeIn__bottom {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .prod__imgSp {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, visibility 1s, transform 1s;
+
+        picture {
+            width: 30%;
+        }
+    }
+
+    .fadeIn__bottom {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
     .prod__dtl {
         display: flex;
         justify-content: space-between;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, visibility 1s, transform 1s;
 
         @include sp {
             display: block;
@@ -199,5 +244,10 @@ $sp: 767px;
                 }
             }
         }
+    }
+
+    .fadeIn__bottom {
+        opacity: 1;
+        transform: translateX(0);
     }
 }

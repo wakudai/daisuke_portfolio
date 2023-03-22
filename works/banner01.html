@@ -133,45 +133,13 @@
             })
         });
 
-        /* スクロールで横からフェードイン、下からフェードイン */
+        /* スクロールで下からフェードイン */
         $(function () {
             $(window).scroll(function () {
                 var windowHeight = $(window).height();
                 var scroll = $(window).scrollTop();
 
-                if (window.matchMedia("(max-width: 1024px)").matches) {
-                    $(("#js_webdesign_ttl")).each(function () {
-                        const targetPosition = $(this).offset().top;
-                        if (scroll > targetPosition - windowHeight + 100) {
-                            $(this).addClass("fadeIn__bottom");
-                        }
-                    });
-                } else {
-                    $(("#js_webdesign_ttl")).each(function () {
-                        const targetPosition = $(this).offset().top;
-                        if (scroll > targetPosition - windowHeight + 100) {
-                            $(this).addClass("fadeIn__left");
-                        }
-                    });
-                }
-
-                if (window.matchMedia("(max-width: 1024px)").matches) {
-                    $(("#js_banner_ttl")).each(function () {
-                        const targetPosition = $(this).offset().top;
-                        if (scroll > targetPosition - windowHeight + 100) {
-                            $(this).addClass("fadeIn__bottom");
-                        }
-                    });
-                } else {
-                    $(("#js_banner_ttl")).each(function () {
-                        const targetPosition = $(this).offset().top;
-                        if (scroll > targetPosition - windowHeight + 100) {
-                            $(this).addClass("fadeIn__right");
-                        }
-                    });
-                }
-
-                $((".webdesign__img, .banner__img")).each(function () {
+                $(("#js_prod_ttl, .prod__cont, .prod__img, .prod__dtl")).each(function () {
                     const targetPosition = $(this).offset().top;
                     if (scroll > targetPosition - windowHeight + 100) {
                         $(this).addClass("fadeIn__bottom");

@@ -68,6 +68,9 @@ $sp: 767px;
         padding: 0 55px;
         margin-bottom: 80px;
         line-height: 1.6;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, visibility 1s, transform 1s;
 
         @include sp {
             font-size: 2rem;
@@ -107,8 +110,16 @@ $sp: 767px;
         }
     }
 
+    .fadeIn__bottom {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
     .prod__cont {
         margin-bottom: 80px;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, visibility 1s, transform 1s;
 
         @include sp {
             margin-bottom: 40px;
@@ -138,27 +149,51 @@ $sp: 767px;
         }
     }
 
+    .fadeIn__bottom {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
     .prod__imgPc {
         margin-bottom: 80px;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, visibility 1s, transform 1s;
 
         @include sp {
             margin-bottom: 40px;
         };
     }
 
+    .fadeIn__bottom {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
     .prod__imgSp {
         display: flex;
         justify-content: space-between;
         margin-bottom: 80px;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, visibility 1s, transform 1s;
 
         picture {
             width: 30%;
         }
     }
 
+    .fadeIn__bottom {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
     .prod__dtl {
         display: flex;
         justify-content: space-between;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, visibility 1s, transform 1s;
 
         @include sp {
             display: block;
@@ -210,5 +245,10 @@ $sp: 767px;
                 }
             }
         }
+    }
+
+    .fadeIn__bottom {
+        opacity: 1;
+        transform: translateX(0);
     }
 }

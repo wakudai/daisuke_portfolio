@@ -34,20 +34,20 @@ $sp: 767px;
         @content;
     }
 }
-.mv__trip {
+.mv__dx-pop {
     height: 100vh;
-    background-image: url(../images/banner_trrrrip.jpg);
+    background-image: url(../images/banner_hamburger_pop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     @include sp {
-        background-image: url(../images/banner_trrrrip_sp.jpg);
+        background-image: url(../images/banner_hamburger_pop_sp.jpg);
         height: 40vh;
     };
 }
 
-.trip__wrap {
+.dx-pop__wrap {
     margin: 150px auto;
 
     @include tb {
@@ -82,7 +82,7 @@ $sp: 767px;
             position: absolute;
             top: 50%;
             display: inline-block;
-            width: 40%;
+            width: 20%;
             height: 1px;
             background-color: $common-use;
 
@@ -154,6 +154,8 @@ $sp: 767px;
     }
 
     .prod__img {
+        display: flex;
+        justify-content: space-between;
         margin-bottom: 80px;
         opacity: 0;
         transform: translateY(50px);
@@ -162,6 +164,10 @@ $sp: 767px;
         @include sp {
             margin-bottom: 40px;
         };
+
+        picture {
+            width: 45%;
+        }
     }
 
     .fadeIn__bottom {

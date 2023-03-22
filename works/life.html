@@ -82,13 +82,13 @@
                 </div>
                 <div class="prod__imgSp">
                     <picture>
-                        <img src="./images/img_brave_sp01.jpeg" alt="株式会社Brave">
+                        <img src="./images/img_life_sp01.jpg" alt="Life hair design">
                     </picture>
                     <picture>
-                        <img src="./images/img_brave_sp02.jpeg" alt="株式会社Brave">
+                        <img src="./images/img_life_sp02.jpg" alt="Life hair design">
                     </picture>
                     <picture>
-                        <img src="./images/img_brave_sp03.jpeg" alt="株式会社Brave">
+                        <img src="./images/img_life_sp03.jpg" alt="Life hair design">
                     </picture>
                 </div>
                 <div class="prod__dtl">
@@ -97,10 +97,8 @@
                         <p class="prod__dtlTxt">デザイン</p>
                     </div>
                     <div class="prod__dtlTool">
-                        <h4 class="prod__dtlTtl">制作ツール / 制作言語</h4>
-                        <ul class="prod__dtlList">
-                            <li class="prod__dtlItem">Illustrator</li>
-                        </ul>
+                        <h4 class="prod__dtlTtl">制作ツール</h4>
+                        <p class="prod__dtlTxt">Illustrator</p>
                     </div>
                     <div class="prod__dtlPeriod">
                         <h4 class="prod__dtlTtl">制作期間</h4>
@@ -148,45 +146,13 @@
             })
         });
 
-        /* スクロールで横からフェードイン、下からフェードイン */
+        /* スクロールで下からフェードイン */
         $(function () {
             $(window).scroll(function () {
                 var windowHeight = $(window).height();
                 var scroll = $(window).scrollTop();
 
-                if (window.matchMedia("(max-width: 1024px)").matches) {
-                    $(("#js_webdesign_ttl")).each(function () {
-                        const targetPosition = $(this).offset().top;
-                        if (scroll > targetPosition - windowHeight + 100) {
-                            $(this).addClass("fadeIn__bottom");
-                        }
-                    });
-                } else {
-                    $(("#js_webdesign_ttl")).each(function () {
-                        const targetPosition = $(this).offset().top;
-                        if (scroll > targetPosition - windowHeight + 100) {
-                            $(this).addClass("fadeIn__left");
-                        }
-                    });
-                }
-
-                if (window.matchMedia("(max-width: 1024px)").matches) {
-                    $(("#js_banner_ttl")).each(function () {
-                        const targetPosition = $(this).offset().top;
-                        if (scroll > targetPosition - windowHeight + 100) {
-                            $(this).addClass("fadeIn__bottom");
-                        }
-                    });
-                } else {
-                    $(("#js_banner_ttl")).each(function () {
-                        const targetPosition = $(this).offset().top;
-                        if (scroll > targetPosition - windowHeight + 100) {
-                            $(this).addClass("fadeIn__right");
-                        }
-                    });
-                }
-
-                $((".webdesign__img, .banner__img")).each(function () {
+                $(("#js_prod_ttl, .prod__cont, .prod__imgPc, .prod__imgSp, .prod__dtl")).each(function () {
                     const targetPosition = $(this).offset().top;
                     if (scroll > targetPosition - windowHeight + 100) {
                         $(this).addClass("fadeIn__bottom");
