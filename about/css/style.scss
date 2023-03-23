@@ -6,9 +6,8 @@ $common-use: #333;
 
 // フォント
 $text-font: 'Noto Sans CJK JP';
-$mv-en-font: 'STIX Two Text';
 $mv-ja-font: 游明朝体;
-$section-ttl-font: Didot;
+$section-ttl-font: Didot, 'Playfair Display', serif;
 
 // メディアクエリ
 $pc: 1025px;
