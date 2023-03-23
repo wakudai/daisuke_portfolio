@@ -1,6 +1,11 @@
 .mv {
   width: 100vw;
 }
+@media (max-width: 767px) {
+  .mv {
+    height: 40vh;
+  }
+}
 .mv .mv__img--bg {
   -webkit-clip-path: polygon(100% 0, 0 100%, 0 0%);
           clip-path: polygon(100% 0, 0 100%, 0 0%);
