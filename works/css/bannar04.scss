@@ -87,7 +87,7 @@ $sp: 767px;
             background-color: $common-use;
 
             @include sp {
-                width: 35%;
+                width: 18%;
             };
         }
 
@@ -107,11 +107,6 @@ $sp: 767px;
                 font-size: 1.3rem;
             };
         }
-    }
-
-    .fadeIn__bottom {
-        opacity: 1;
-        transform: translateX(0);
     }
 
     .prod__cont {
@@ -148,11 +143,6 @@ $sp: 767px;
         }
     }
 
-    .fadeIn__bottom {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
     .prod__img {
         display: flex;
         justify-content: space-between;
@@ -168,11 +158,6 @@ $sp: 767px;
         picture {
             width: 45%;
         }
-    }
-
-    .fadeIn__bottom {
-        opacity: 1;
-        transform: translateX(0);
     }
 
     .prod__dtl {

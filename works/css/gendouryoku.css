@@ -74,10 +74,6 @@
     font-size: 1.3rem;
   }
 }
-.gendouryoku__wrap .fadeIn__bottom {
-  opacity: 1;
-  transform: translateX(0);
-}
 .gendouryoku__wrap .prod__cont {
   margin-bottom: 80px;
   opacity: 0;
@@ -111,10 +107,6 @@
   color: #333;
   line-height: 2;
 }
-.gendouryoku__wrap .fadeIn__bottom {
-  opacity: 1;
-  transform: translateX(0);
-}
 .gendouryoku__wrap .prod__imgPc {
   margin-bottom: 80px;
   opacity: 0;
@@ -125,10 +117,6 @@
   .gendouryoku__wrap .prod__imgPc {
     margin-bottom: 40px;
   }
-}
-.gendouryoku__wrap .fadeIn__bottom {
-  opacity: 1;
-  transform: translateX(0);
 }
 .gendouryoku__wrap .prod__imgSp {
   display: flex;

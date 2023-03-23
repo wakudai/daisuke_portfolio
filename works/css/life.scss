@@ -109,11 +109,6 @@ $sp: 767px;
         }
     }
 
-    .fadeIn__bottom {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
     .prod__cont {
         margin-bottom: 80px;
         opacity: 0;
@@ -148,11 +143,6 @@ $sp: 767px;
         }
     }
 
-    .fadeIn__bottom {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
     .prod__imgPc {
         margin-bottom: 80px;
         opacity: 0;
@@ -162,11 +152,6 @@ $sp: 767px;
         @include sp {
             margin-bottom: 40px;
         };
-    }
-
-    .fadeIn__bottom {
-        opacity: 1;
-        transform: translateX(0);
     }
 
     .prod__imgSp {
@@ -180,11 +165,6 @@ $sp: 767px;
         picture {
             width: 30%;
         }
-    }
-
-    .fadeIn__bottom {
-        opacity: 1;
-        transform: translateX(0);
     }
 
     .prod__dtl {

@@ -74,10 +74,6 @@
     font-size: 1.3rem;
   }
 }
-.brave__wrap .fadeIn__bottom {
-  opacity: 1;
-  transform: translateX(0);
-}
 .brave__wrap .prod__cont {
   margin-bottom: 80px;
   opacity: 0;
@@ -111,10 +107,6 @@
   color: #333;
   line-height: 2;
 }
-.brave__wrap .fadeIn__bottom {
-  opacity: 1;
-  transform: translateX(0);
-}
 .brave__wrap .prod__imgPc {
   margin-bottom: 80px;
   opacity: 0;
@@ -125,10 +117,6 @@
   .brave__wrap .prod__imgPc {
     margin-bottom: 40px;
   }
-}
-.brave__wrap .fadeIn__bottom {
-  opacity: 1;
-  transform: translateX(0);
 }
 .brave__wrap .prod__imgSp {
   display: flex;
