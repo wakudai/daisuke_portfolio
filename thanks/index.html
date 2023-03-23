@@ -129,7 +129,7 @@
         <p class="footer__cp"><small>©gendohyoku 2023. All rights reserved.</small></p>
     </footer>
 
-    <script defer>
+    <script>
         window.addEventListener("load", function () {
             // ハンバーガーメニュー
             $(function () {
@@ -138,53 +138,6 @@
                     $('.header__nav').fadeToggle();
                 })
             })
-        });
-
-        /* スクロールで横からフェードイン、下からフェードイン */
-        $(function () {
-            $(window).scroll(function () {
-                var windowHeight = $(window).height();
-                var scroll = $(window).scrollTop();
-
-                if (window.matchMedia("(max-width: 1024px)").matches) {
-                    $(("#js_webdesign_ttl")).each(function () {
-                        const targetPosition = $(this).offset().top;
-                        if (scroll > targetPosition - windowHeight + 100) {
-                            $(this).addClass("fadeIn__bottom");
-                        }
-                    });
-                } else {
-                    $(("#js_webdesign_ttl")).each(function () {
-                        const targetPosition = $(this).offset().top;
-                        if (scroll > targetPosition - windowHeight + 100) {
-                            $(this).addClass("fadeIn__left");
-                        }
-                    });
-                }
-
-                if (window.matchMedia("(max-width: 1024px)").matches) {
-                    $(("#js_banner_ttl")).each(function () {
-                        const targetPosition = $(this).offset().top;
-                        if (scroll > targetPosition - windowHeight + 100) {
-                            $(this).addClass("fadeIn__bottom");
-                        }
-                    });
-                } else {
-                    $(("#js_banner_ttl")).each(function () {
-                        const targetPosition = $(this).offset().top;
-                        if (scroll > targetPosition - windowHeight + 100) {
-                            $(this).addClass("fadeIn__right");
-                        }
-                    });
-                }
-
-                $((".webdesign__img, .banner__img")).each(function () {
-                    const targetPosition = $(this).offset().top;
-                    if (scroll > targetPosition - windowHeight + 100) {
-                        $(this).addClass("fadeIn__bottom");
-                    }
-                });
-            });
         });
     </script>
 </body>
