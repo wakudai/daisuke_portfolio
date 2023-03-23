@@ -56,7 +56,7 @@
 }
 @media (max-width: 767px) {
   .brave__wrap .prod__ttl::before, .brave__wrap .prod__ttl::after {
-    width: 35%;
+    width: 30%;
   }
 }
 .brave__wrap .prod__ttl::before {

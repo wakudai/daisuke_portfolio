@@ -451,30 +451,24 @@ img {
 .mv {
   width: 100vw;
 }
-@media (max-width: 767px) {
-  .mv {
-    height: 40vh;
-  }
+.mv .mv__imgBox {
+  height: 40%;
 }
-.mv .mv__img--bg {
+.mv .mv__imgBox .mv__img--bg {
   -webkit-clip-path: polygon(100% 0, 0 100%, 0 0%);
           clip-path: polygon(100% 0, 0 100%, 0 0%);
 }
-.mv .mv__img--bg img {
-  height: 100%;
-}
-.mv .mv__img--main {
+.mv .mv__imgBox .mv__img--main {
   position: absolute;
   top: 0%;
   -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
           clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
-.mv .mv__img--main img {
-  height: 100%;
+.mv .mv__imgBox .mv__img--main img {
   filter: saturate(0);
   transition: 0.3s;
 }
-.mv .mv__img--main img:hover {
+.mv .mv__imgBox .mv__img--main img:hover {
   filter: saturate(1);
 }
 .mv .mv__cont {

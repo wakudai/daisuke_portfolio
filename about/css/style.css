@@ -1,17 +1,9 @@
 .mv {
   width: 100vw;
 }
-@media (max-width: 767px) {
-  .mv {
-    height: 40vh;
-  }
-}
 .mv .mv__img--bg {
   -webkit-clip-path: polygon(100% 0, 0 100%, 0 0%);
           clip-path: polygon(100% 0, 0 100%, 0 0%);
-}
-.mv .mv__img--bg img {
-  height: 100%;
 }
 .mv .mv__img--main {
   position: absolute;
@@ -20,7 +12,6 @@
           clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 .mv .mv__img--main img {
-  height: 100%;
   filter: saturate(0);
   transition: 0.3s;
 }
