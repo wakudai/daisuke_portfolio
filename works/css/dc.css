@@ -56,7 +56,7 @@
 }
 @media (max-width: 767px) {
   .dc__wrap .prod__ttl::before, .dc__wrap .prod__ttl::after {
-    width: 35%;
+    width: 30%;
   }
 }
 .dc__wrap .prod__ttl::before {
