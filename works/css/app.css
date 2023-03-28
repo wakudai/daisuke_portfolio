@@ -238,7 +238,7 @@ img {
   padding: 0 10px;
 }
 .sect__wrap .sect__ttl {
-  font-family: Didot;
+  font-family: Didot, "Playfair Display", serif;
   font-style: italic;
   font-size: 8rem;
   color: #b2b2b2;
@@ -308,7 +308,7 @@ img {
   }
 }
 .footer .footer__wrap .footer__txtArea dl dt {
-  font-family: Didot;
+  font-family: Didot, "Playfair Display", serif;
   font-size: 2.4rem;
   font-style: italic;
   color: #fff;
@@ -456,9 +456,6 @@ img {
   -webkit-clip-path: polygon(100% 0, 0 100%, 0 0%);
           clip-path: polygon(100% 0, 0 100%, 0 0%);
 }
-.mv .mv__img--bg img {
-  height: 100%;
-}
 .mv .mv__img--main {
   position: absolute;
   top: 0%;
@@ -466,7 +463,6 @@ img {
           clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 .mv .mv__img--main img {
-  height: 100%;
   filter: saturate(0);
   transition: 0.3s;
 }
@@ -483,7 +479,7 @@ img {
   top: 45%;
   left: 25%;
   font-size: 12rem;
-  font-family: Didot;
+  font-family: Didot, "Playfair Display", serif;
   color: #fff;
   font-style: italic;
 }

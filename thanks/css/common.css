@@ -238,7 +238,7 @@ img {
   padding: 0 10px;
 }
 .sect__wrap .sect__ttl {
-  font-family: Didot;
+  font-family: Didot, "Playfair Display", serif;
   font-style: italic;
   font-size: 8rem;
   color: #b2b2b2;
@@ -308,7 +308,7 @@ img {
   }
 }
 .footer .footer__wrap .footer__txtArea dl dt {
-  font-family: Didot;
+  font-family: Didot, "Playfair Display", serif;
   font-size: 2.4rem;
   font-style: italic;
   color: #fff;

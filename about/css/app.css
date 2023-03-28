@@ -238,7 +238,7 @@ img {
   padding: 0 10px;
 }
 .sect__wrap .sect__ttl {
-  font-family: Didot;
+  font-family: Didot, "Playfair Display", serif;
   font-style: italic;
   font-size: 8rem;
   color: #b2b2b2;
@@ -308,7 +308,7 @@ img {
   }
 }
 .footer .footer__wrap .footer__txtArea dl dt {
-  font-family: Didot;
+  font-family: Didot, "Playfair Display", serif;
   font-size: 2.4rem;
   font-style: italic;
   color: #fff;
@@ -479,7 +479,7 @@ img {
   top: 45%;
   left: 25%;
   font-size: 12rem;
-  font-family: Didot;
+  font-family: Didot, "Playfair Display", serif;
   color: #fff;
   font-style: italic;
 }
@@ -602,7 +602,7 @@ img {
   }
 }
 .prof .prof__flexBox .prof__cont .prof__name .romaji {
-  font-family: Didot;
+  font-family: Didot, "Playfair Display", serif;
 }
 .prof .prof__flexBox .prof__cont .prof__name .prof__date-of-birth {
   font-size: 1.6rem;

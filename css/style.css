@@ -14,7 +14,7 @@
   /* fadeIn-title animation (左から右)*/
 }
 .mv .mv__cont .mv__cont--bgTtl {
-  font-family: "STIX Two Text";
+  font-family: "STIX Two Text", "Playfair Display", serif;
   position: absolute;
   left: 28%;
   line-height: 1.75;
