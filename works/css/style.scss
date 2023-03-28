@@ -42,10 +42,6 @@ $sp: 767px;
 
     .mv__img--bg {
         clip-path: polygon(100% 0, 0 100%, 0 0%);
-
-        img {
-            height: 100%;
-        }
     }
 
     .mv__img--main {
@@ -54,7 +50,6 @@ $sp: 767px;
         clip-path: polygon(100% 0, 0 100%, 100% 100%);
 
         img {
-            height: 100%;
             filter: saturate(0);
             transition: 0.3s;
 
