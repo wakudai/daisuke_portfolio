@@ -126,10 +126,8 @@
                     </div>
                     <button type="submit" class="form__btn">送信</button>
                 </form>
-                <script type="text/javascript">
-                    var submitted = false;
-                </script>
-                <iframe def name="hidden_iframe" id="hidden_iframe" style="display: none;"
+                <script>let submitted = false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;"
                     onload="if(submitted) {window.location = '../thanks/index.html';}"></iframe>
             </div>
         </div>
