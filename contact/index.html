@@ -79,11 +79,6 @@
         <div class="contact sect" id="contact">
             <p class="contact__text">制作のご依頼やご相談などお気軽にお問い合わせください。</p>
             <div class="contact__form">
-                <script type="text/javascript">
-                    var submitted = true;
-                </script>
-                <iframe def name="hidden_iframe" id="hidden_iframe" style="display: none;"
-                    onload="if(submitted) {window.location = '../thanks/index.html';}"></iframe>
                 <form
                     action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfLqNQbZDZ2yXuo2a7yc7HI35ZiLn8ogTXipsFKh8W4lN84iQ/formResponse"
                     class="form" method="post" target="hidden_iframe" onsubmit="submitted = true;">
@@ -131,6 +126,11 @@
                     </div>
                     <button type="submit" class="form__btn">送信</button>
                 </form>
+                <script type="text/javascript">
+                    var submitted = false;
+                </script>
+                <iframe def name="hidden_iframe" id="hidden_iframe" style="display: none;"
+                    onload="if(submitted) {window.location = '../thanks/index.html';}"></iframe>
             </div>
         </div>
     </main>
