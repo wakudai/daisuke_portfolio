@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 .mv .mv__cont {
@@ -13,7 +13,7 @@
   padding: 0 10px;
   /* fadeIn-title animation (左から右)*/
 }
-.mv .mv__cont .mv__cont--bgTtl {
+.mv .mv__cont .mv__bgTtl {
   font-family: "STIX Two Text", "Playfair Display", serif;
   position: absolute;
   left: 28%;
@@ -22,58 +22,58 @@
   opacity: 0;
 }
 @media (min-width: 1025px) {
-  .mv .mv__cont .mv__cont--bgTtl {
+  .mv .mv__cont .mv__bgTtl {
     font-size: 8rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .mv .mv__cont .mv__cont--bgTtl {
+  .mv .mv__cont .mv__bgTtl {
     font-size: 7rem;
     left: 23%;
   }
 }
 @media (max-width: 767px) {
-  .mv .mv__cont .mv__cont--bgTtl {
+  .mv .mv__cont .mv__bgTtl {
     font-size: 3rem;
     left: 20%;
   }
 }
-.mv .mv__cont .mv__cont--bgTtl:nth-child(1) {
+.mv .mv__cont .mv__bgTtl:nth-child(1) {
   top: 25%;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .mv .mv__cont .mv__cont--bgTtl:nth-child(1) {
+  .mv .mv__cont .mv__bgTtl:nth-child(1) {
     top: 35%;
   }
 }
 @media (max-width: 767px) {
-  .mv .mv__cont .mv__cont--bgTtl:nth-child(1) {
+  .mv .mv__cont .mv__bgTtl:nth-child(1) {
     top: 30%;
   }
 }
-.mv .mv__cont .mv__cont--bgTtl:nth-child(2) {
+.mv .mv__cont .mv__bgTtl:nth-child(2) {
   top: 42%;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .mv .mv__cont .mv__cont--bgTtl:nth-child(2) {
+  .mv .mv__cont .mv__bgTtl:nth-child(2) {
     top: 45%;
   }
 }
 @media (max-width: 767px) {
-  .mv .mv__cont .mv__cont--bgTtl:nth-child(2) {
+  .mv .mv__cont .mv__bgTtl:nth-child(2) {
     top: 40%;
   }
 }
-.mv .mv__cont .mv__cont--bgTtl:nth-child(3) {
+.mv .mv__cont .mv__bgTtl:nth-child(3) {
   top: 59%;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .mv .mv__cont .mv__cont--bgTtl:nth-child(3) {
+  .mv .mv__cont .mv__bgTtl:nth-child(3) {
     top: 55%;
   }
 }
 @media (max-width: 767px) {
-  .mv .mv__cont .mv__cont--bgTtl:nth-child(3) {
+  .mv .mv__cont .mv__bgTtl:nth-child(3) {
     top: 50%;
   }
 }
@@ -170,13 +170,13 @@
     right: 1%;
   }
 }
-.mv .mv__cont .mv__scroll .mv__scroll--txt {
+.mv .mv__cont .mv__scroll .mv__txt {
   color: #f59b00;
   writing-mode: vertical-rl;
   text-orientation: sideways;
   margin-right: 5px;
 }
-.mv .mv__cont .mv__scroll .mv__scroll--arrow {
+.mv .mv__cont .mv__scroll .mv__arrow {
   display: block;
   width: 5px;
   border-left: solid 1px #f59b00;

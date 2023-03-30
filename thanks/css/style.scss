@@ -37,13 +37,13 @@ $sp: 767px;
 
 // メインビジュアル
 .mv {
-    width: 100vw;
+    width: 100%;
 
-    .mv__img--bg {
+    .mv__img--right {
         clip-path: polygon(100% 0, 0 100%, 0 0%);
     }
 
-    .mv__img--main {
+    .mv__img--left {
         position: absolute;
         top: 0%;
         clip-path: polygon(100% 0, 0 100%, 100% 100%);
@@ -84,7 +84,7 @@ $sp: 767px;
             };
         }
 
-        .mv__page--subTtl {
+        .mv__pageSubttl {
             position: absolute;
             top: 63%;
             left: 26%;

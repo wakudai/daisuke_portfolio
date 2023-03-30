@@ -38,13 +38,13 @@ $sp: 767px;
 
 // メインビジュアル
 .mv {
-    width: 100vw;
+    width: 100%;
 
-    .mv__img--bg {
+    .mv__img--right {
         clip-path: polygon(100% 0, 0 100%, 0 0%);
     }
 
-    .mv__img--main {
+    .mv__img--left {
         position: absolute;
         top: 0%;
         clip-path: polygon(100% 0, 0 100%, 100% 100%);
@@ -85,7 +85,7 @@ $sp: 767px;
             };
         }
 
-        .mv__page--subTtl {
+        .mv__pageSubttl {
             position: absolute;
             top: 63%;
             left: 26%;
@@ -120,12 +120,11 @@ $sp: 767px;
     };
 
     .webdesign__ttl {
-        opacity: 0;
-        transform: translateY(50px);
-        transition: opacity 1s, visibility 1s, transform 1s;
 
         @include pc {
+            opacity: 0;
             transform: translateX(-50px);
+            transition: opacity 1s, visibility 1s, transform 1s;
         };
     }
 
@@ -149,12 +148,11 @@ $sp: 767px;
 
         .webdesign__img {
             margin-bottom: 40px;
-            opacity: 0;
-            transform: translateY(50px);
-            transition: opacity 1s, visibility 1s, transform 1s;
 
             @include pc {
                 width: 48%;
+                opacity: 0;
+                transition: opacity 1s, visibility 1s, transform 1s;
             };
 
             .webdesign__img-dtl {

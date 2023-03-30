@@ -37,13 +37,13 @@ $sp: 767px;
 
 // メインビジュアル
 .mv {
-    width: 100vw;
+    width: 100%;
 
-    .mv__img--bg {
+    .mv__img--right {
         clip-path: polygon(100% 0, 0 100%, 0 0%);
     }
 
-    .mv__img--main {
+    .mv__img--left {
         position: absolute;
         top: 0%;
         clip-path: polygon(100% 0, 0 100%, 100% 100%);
@@ -84,7 +84,7 @@ $sp: 767px;
             };
         }
 
-        .mv__page--subTtl {
+        .mv__pageSubttl {
             position: absolute;
             top: 63%;
             left: 24%;
@@ -128,13 +128,12 @@ $sp: 767px;
         .prof__img {
             filter: saturate(0);
             transition: 0.3s;
-            opacity: 0;
-            transform: translateY(50px);
-            transition: opacity 1s, visibility 1s, transform 1s;
 
             @include pc {
                 width: 38%;
                 transform: translateX(-50px);
+                opacity: 0;
+                transition: opacity 1s, visibility 1s, transform 1s;
             };
 
             &:hover {
@@ -158,16 +157,15 @@ $sp: 767px;
         }
 
         .prof__cont {
-            opacity: 0;
             margin-top: 80px;
             color: $common-use;
-            transform: translateY(50px);
-            transition: opacity 1s, visibility 1s, transform 1s;
 
             @include pc {
                 width: 56.5%;
                 margin: 0;
+                opacity: 0;
                 transform: translateX(50px);
+                transition: opacity 1s, visibility 1s, transform 1s;
             };
 
             .prof__name {

@@ -1,21 +1,21 @@
 .mv {
-  width: 100vw;
+  width: 100%;
 }
-.mv .mv__img--bg {
+.mv .mv__img--right {
   -webkit-clip-path: polygon(100% 0, 0 100%, 0 0%);
           clip-path: polygon(100% 0, 0 100%, 0 0%);
 }
-.mv .mv__img--main {
+.mv .mv__img--left {
   position: absolute;
   top: 0%;
   -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
           clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
-.mv .mv__img--main img {
+.mv .mv__img--left img {
   filter: saturate(0);
   transition: 0.3s;
 }
-.mv .mv__img--main img:hover {
+.mv .mv__img--left img:hover {
   filter: saturate(1);
 }
 .mv .mv__cont {
@@ -45,7 +45,7 @@
     left: 13%;
   }
 }
-.mv .mv__cont .mv__page--subTtl {
+.mv .mv__cont .mv__pageSubttl {
   position: absolute;
   top: 63%;
   left: 26%;
@@ -54,13 +54,13 @@
   color: #fff;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .mv .mv__cont .mv__page--subTtl {
+  .mv .mv__cont .mv__pageSubttl {
     top: 25%;
     left: 24%;
   }
 }
 @media (max-width: 767px) {
-  .mv .mv__cont .mv__page--subTtl {
+  .mv .mv__cont .mv__pageSubttl {
     font-size: 1.3rem;
     top: 21%;
     left: 12%;

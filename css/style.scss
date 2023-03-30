@@ -42,7 +42,7 @@ $sp: 767px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 
     .mv__cont {
@@ -50,7 +50,7 @@ $sp: 767px;
         margin: 0 auto;
         padding: 0 10px;
 
-        .mv__cont--bgTtl {
+        .mv__bgTtl {
             font-family: $mv-en-font;
             position: absolute;
             left: 28%;
@@ -210,14 +210,14 @@ $sp: 767px;
                 right: 1%;
             };
 
-            .mv__scroll--txt {
+            .mv__txt {
                 color: $accent-color;
                 writing-mode: vertical-rl;
                 text-orientation: sideways;
                 margin-right: 5px;
             }
 
-            .mv__scroll--arrow {
+            .mv__arrow {
                 display: block;
                 width: 5px;
                 border-left: solid 1px $accent-color;
