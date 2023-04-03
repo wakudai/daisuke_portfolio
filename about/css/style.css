@@ -86,10 +86,6 @@
     justify-content: space-between;
   }
 }
-.prof .prof__flexBox .prof__img {
-  filter: saturate(0);
-  transition: 0.3s;
-}
 @media (min-width: 1025px) {
   .prof .prof__flexBox .prof__img {
     width: 38%;
@@ -98,12 +94,14 @@
     transition: opacity 1s, visibility 1s, transform 1s;
   }
 }
-.prof .prof__flexBox .prof__img:hover {
-  filter: saturate(1);
-}
 .prof .prof__flexBox .prof__img img {
   width: 100%;
   height: 100%;
+  filter: saturate(0);
+  transition: 0.3s;
+}
+.prof .prof__flexBox .prof__img img:hover {
+  filter: saturate(1);
 }
 .prof .prof__flexBox .fadeIn__right {
   opacity: 1;
