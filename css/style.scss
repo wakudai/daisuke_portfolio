@@ -415,6 +415,8 @@
 
         @include pc {
             width: 70%;
+            display: flex;
+            justify-content: space-between;
         };
 
         .works__img {
@@ -422,6 +424,10 @@
             opacity: 0;
             transform: translateY(50px);
             transition: opacity 1s, visibility 1s, transform 1s;
+
+            @include pc {
+                width: 32%;
+            };
 
             @include sp {
                 margin-bottom: 30px;
