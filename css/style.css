@@ -405,6 +405,8 @@
 @media (min-width: 1025px) {
   .works .works__cont {
     width: 70%;
+    display: flex;
+    justify-content: space-between;
   }
 }
 .works .works__cont .works__img {
@@ -412,6 +414,11 @@
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s, visibility 1s, transform 1s;
+}
+@media (min-width: 1025px) {
+  .works .works__cont .works__img {
+    width: 32%;
+  }
 }
 @media (max-width: 767px) {
   .works .works__cont .works__img {
