@@ -225,7 +225,7 @@ img {
         }
 
         // ハンバーガー閉じるボタン
-        .header__humBtn.open .header__humBtn--line {
+        .header__humBtn.open span {
             background: $accent-color;
             width: 30px;
 

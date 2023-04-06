@@ -176,19 +176,19 @@ img {
   width: 20px;
   animation: hamburger-animation02 5000ms infinite;
 }
-.header .header__wrap .header__humBtn.open .header__humBtn--line {
+.header .header__wrap .header__humBtn.open span {
   background: #f59b00;
   width: 30px;
 }
-.header .header__wrap .header__humBtn.open .header__humBtn--line:nth-child(1) {
+.header .header__wrap .header__humBtn.open span:nth-child(1) {
   transform: translate(0, 10px) rotate(-45deg);
   animation: unset;
 }
-.header .header__wrap .header__humBtn.open .header__humBtn--line:nth-child(2) {
+.header .header__wrap .header__humBtn.open span:nth-child(2) {
   opacity: 0;
   animation: unset;
 }
-.header .header__wrap .header__humBtn.open .header__humBtn--line:nth-child(3) {
+.header .header__wrap .header__humBtn.open span:nth-child(3) {
   transform: translate(0, -10px) rotate(45deg);
   animation: unset;
 }
