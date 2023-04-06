@@ -50,7 +50,7 @@
   top: 63%;
   left: 26%;
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   color: #fff;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -83,7 +83,7 @@
 .contact .contact__text {
   font-size: 1.6rem;
   color: #333;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -111,7 +111,7 @@
 .contact .contact__form .form .form__item .form__label {
   font-size: 1.6rem;
   color: #333;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   margin-bottom: 20px;
 }
 .contact .contact__form .form .form__item .form__label .form__required {
@@ -214,7 +214,7 @@
 .banner .banner__flexBox .banner__img .banner__img-dtl {
   margin-top: 20px;
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   color: #333;
 }
 @media (max-width: 767px) {
@@ -259,7 +259,7 @@
 }
 .logo .logo__msg {
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   width: 63%;
   margin: 0 auto;
   line-height: 2;

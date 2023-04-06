@@ -1,3 +1,38 @@
+//カラー
+$accent-color: #f59b00;
+$white: #fff;
+$gray: #b2b2b2;
+$common-use: #333;
+
+// フォント
+$text-font: 'Noto Sans CJK JP', sans-serif;
+$mv-en-font: 'STIX Two Text', 'Playfair Display', serif;
+$mv-ja-font: 游明朝体, serif;
+$section-ttl-font: Didot, 'Playfair Display', serif;
+
+// メディアクエリ
+$pc: 1025px;
+$tb-max: 1024px;
+$tb-min: 768px;
+$sp: 767px;
+
+@mixin pc {
+    @media (min-width: ($pc)) {
+        @content;
+    }
+}
+
+@mixin tb {
+    @media (min-width: ($tb-min)) and (max-width: ($tb-max)) {
+        @content;
+    }
+}
+
+@mixin sp {
+    @media (max-width: ($sp)) {
+        @content;
+    }
+}
 .mv__dc {
     height: 100vh;
     background-image: url(../images/design-cafe_mokup_pc.jpg);

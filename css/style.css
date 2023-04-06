@@ -404,7 +404,6 @@
 }
 @media (min-width: 1025px) {
   .works .works__cont {
-    width: 70%;
     display: flex;
     justify-content: space-between;
   }

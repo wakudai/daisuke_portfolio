@@ -50,7 +50,7 @@
   top: 63%;
   left: 26%;
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   color: #fff;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -115,7 +115,7 @@
 .webdesign .webdesign__flexBox .webdesign__img .webdesign__img-dtl {
   margin-top: 20px;
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   color: #333;
 }
 @media (max-width: 767px) {
@@ -182,7 +182,7 @@
 .banner .banner__flexBox .banner__img .banner__img-dtl {
   margin-top: 20px;
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   color: #333;
 }
 @media (max-width: 767px) {
@@ -227,7 +227,7 @@
 }
 .logo .logo__msg {
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   width: 63%;
   margin: 0 auto;
   line-height: 2;

@@ -50,7 +50,7 @@
   top: 63%;
   left: 24%;
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   color: #fff;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -130,7 +130,7 @@
   border-bottom: solid 1px #333;
   width: 93%;
   padding-bottom: 10px;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .prof .prof__flexBox .prof__cont .prof__name {
@@ -151,7 +151,7 @@
 }
 .prof .prof__flexBox .prof__cont .prof__name .prof__date-of-birth {
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
 }
 .prof .prof__flexBox .prof__cont .prof__contBox {
   margin-bottom: 50px;
@@ -173,7 +173,7 @@
 }
 .prof .prof__flexBox .prof__cont .prof__contBox .prof__contTtl, .prof .prof__flexBox .prof__cont .prof__contBox .prof__contTxt {
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
 }
 .prof .prof__flexBox .prof__cont .prof__contBox .prof__contTtl {
   font-weight: bold;
@@ -272,7 +272,7 @@
   text-align: center;
   font-size: 1.6rem;
   color: #333;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   font-weight: bold;
   margin-top: 16px;
 }
@@ -314,7 +314,7 @@
 }
 .logo .logo__msg {
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   width: 63%;
   margin: 0 auto;
   line-height: 2;
