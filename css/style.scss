@@ -5,9 +5,9 @@ $gray: #b2b2b2;
 $common-use: #333;
 
 // フォント
-$text-font: 'Noto Sans CJK JP';
+$text-font: 'Noto Sans CJK JP', sans-serif;
 $mv-en-font: 'STIX Two Text', 'Playfair Display', serif;
-$mv-ja-font: 游明朝体;
+$mv-ja-font: 游明朝体, serif;
 $section-ttl-font: Didot, 'Playfair Display', serif;
 
 // メディアクエリ
@@ -299,7 +299,7 @@ $sp: 767px;
             .about__profTtl {
                 font-family: $text-font;
                 font-size: 3rem;
-                font-weight: bold;
+                font-weight: 600;
                 margin-bottom: 40px;
 
                 @include tb {

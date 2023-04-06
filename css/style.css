@@ -109,7 +109,7 @@
 }
 .mv .mv__cont .mv__contTtl {
   writing-mode: vertical-rl;
-  font-family: 游明朝体;
+  font-family: 游明朝体, serif;
   color: #fff;
   font-size: 4rem;
 }
@@ -256,9 +256,9 @@
   }
 }
 .about .about__flexBox .about__prof .about__profTtl {
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 40px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -275,7 +275,7 @@
 }
 .about .about__flexBox .about__prof .about__profTxt {
   font-feature-settings: "palt";
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   font-weight: lighter;
   font-size: 1.6rem;
   line-height: 2.5;
@@ -420,7 +420,7 @@
 }
 .works .works__cont .works__img .works__img-dtl {
   margin-top: 10px;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   font-size: 1.6rem;
   color: #333;
 }

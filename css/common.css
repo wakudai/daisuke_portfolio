@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,
 body,
 h1,
@@ -220,7 +221,7 @@ img {
 .header .header__wrap .header__nav .header__navList .header__navItem a {
   color: #f59b00;
   font-size: 2.5rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", "ヒラギノ角ゴシック";
 }
 .header .header__wrap .header__nav .header__navList .header__navItem a .after__hover {
   display: none;
@@ -321,7 +322,7 @@ img {
   }
 }
 .footer .footer__wrap .footer__txtArea dl dd {
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", "ヒラギノ角ゴシック";
   font-size: 1.6em;
   color: #fff;
 }
@@ -407,7 +408,7 @@ img {
   color: #333;
   font-size: 1.6em;
   font-weight: bold;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", "ヒラギノ角ゴシック";
   background-color: transparent;
   padding: 18px 30px;
   border: solid 1px #333;
