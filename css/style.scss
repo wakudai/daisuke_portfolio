@@ -460,7 +460,11 @@ $sp: 767px;
             transition: opacity 1s, visibility 1s, transform 1s;
 
             @include pc {
-                width: 32%;
+                width: 30%;
+
+                &:hover {
+                    transform:scale(1.2,1.2);
+                }
             };
 
             @include sp {
