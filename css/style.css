@@ -14,7 +14,7 @@
   /* fadeIn-title animation (左から右)*/
 }
 .mv .mv__cont .mv__bgTtl {
-  font-family: "STIX Two Text", "Playfair Display", serif;
+  font-family: "STIX Two Text", serif;
   position: absolute;
   left: 28%;
   line-height: 1.75;
@@ -109,7 +109,7 @@
 }
 .mv .mv__cont .mv__contTtl {
   writing-mode: vertical-rl;
-  font-family: 游明朝体, serif;
+  font-family: "游明朝", serif;
   color: #fff;
   font-size: 4rem;
 }

@@ -28,7 +28,7 @@
   top: 45%;
   left: 25%;
   font-size: 12rem;
-  font-family: Didot, "Playfair Display", serif;
+  font-family: Didot, serif;
   color: #fff;
   font-style: italic;
 }
@@ -147,7 +147,7 @@
   }
 }
 .prof .prof__flexBox .prof__cont .prof__name .romaji {
-  font-family: Didot, "Playfair Display", serif;
+  font-family: Didot, serif;
 }
 .prof .prof__flexBox .prof__cont .prof__name .prof__date-of-birth {
   font-size: 1.6rem;
