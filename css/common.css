@@ -345,6 +345,7 @@ img {
 }
 .footer .footer__wrap .footer__contBtn a {
   color: #333;
+  font-family: "Noto Sans CJK JP", sans-serif;
   font-size: 1.6em;
   font-weight: bold;
   background-color: #f59b00;
