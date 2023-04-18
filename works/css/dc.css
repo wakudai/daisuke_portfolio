@@ -27,7 +27,7 @@
 }
 .dc__wrap .prod__ttl {
   font-size: 4rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   color: #333;
   text-align: center;
   position: relative;
@@ -90,7 +90,7 @@
 .dc__wrap .prod__cont .prod__contTtl {
   text-align: center;
   font-size: 2.4rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   padding-bottom: 16px;
   margin-bottom: 24px;
   border-bottom: dotted 1px #333;
@@ -104,7 +104,7 @@
   font-feature-settings: "palt";
   text-align: center;
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   font-weight: lighter;
   color: #333;
   line-height: 2;
@@ -156,7 +156,7 @@
   background-color: #e6e6e6;
   padding: 20px;
   font-size: 2rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   color: #333;
 }
 @media (max-width: 767px) {
@@ -168,7 +168,7 @@
   font-weight: lighter;
   text-align: center;
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   color: #333;
 }
 .dc__wrap .prod__dtl .prod__dtlRange .prod__dtlList, .dc__wrap .prod__dtl .prod__dtlTool .prod__dtlList, .dc__wrap .prod__dtl .prod__dtlPeriod .prod__dtlList {
@@ -176,12 +176,13 @@
   width: 80%;
   margin: 0 auto;
   font-size: 1.6rem;
-  font-family: "Noto Sans CJK JP";
+  font-family: "Noto Sans CJK JP", sans-serif;
   color: #333;
 }
 .dc__wrap .prod__dtl .prod__dtlRange .prod__dtlList .prod__dtlItem, .dc__wrap .prod__dtl .prod__dtlTool .prod__dtlList .prod__dtlItem, .dc__wrap .prod__dtl .prod__dtlPeriod .prod__dtlList .prod__dtlItem {
   margin-bottom: 16px;
   font-weight: lighter;
+  font-family: "Noto Sans CJK JP", sans-serif;
 }
 .dc__wrap .prod__dtl .prod__dtlRange .prod__dtlList .prod__dtlItem:last-child, .dc__wrap .prod__dtl .prod__dtlTool .prod__dtlList .prod__dtlItem:last-child, .dc__wrap .prod__dtl .prod__dtlPeriod .prod__dtlList .prod__dtlItem:last-child {
   margin-bottom: 0;

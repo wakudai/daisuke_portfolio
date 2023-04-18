@@ -3,6 +3,7 @@ $accent-color: #f59b00;
 $white: #fff;
 $gray: #b2b2b2;
 $common-use: #333;
+$prod-dtl: #e6e6e6;
 
 // フォント
 $text-font: 'Noto Sans CJK JP', sans-serif;
@@ -218,6 +219,7 @@ $sp: 767px;
                 .prod__dtlItem {
                     margin-bottom: 16px;
                     font-weight: lighter;
+                    font-family: $text-font;
 
                     &:last-child {
                         margin-bottom: 0;
